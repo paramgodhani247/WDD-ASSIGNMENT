@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="3.css">
+</head>
+<body>
+    <h1>registration form</h1>
+    <form class="form-contain">
+        <lable for="name">first name</lable><br>
+        <input type="text"  id="name" name="name" placeholder="enter your name"><br><br><br>
+
+        <lable for="midname">mid name</lable><br>
+        <input type="text"  id="midname" name="midname" placeholder="enter your midname"><br><br><br> 
+
+        <lable for="lastname">last name</lable><br>
+        <input type="text"  id="lastname" name="lastname" placeholder="enter your lastname"><br><br><br>
+
+        <lable for="date">date of birth</lable><br>
+        <input type="date"  id="date" name="date" required oninvalid="setcustomvalidity(entervalid)" placeholder="enter dob"><br><br><br>
+
+        <lable>gender</lable><br>
+        <input type="radio"  id="male" name="gender" value="male" >
+        <lable for="male">male</lable>
+
+        <input type="radio"  id="female" name="gender" value="female" >
+        <lable for="female">female</lable><br><br><br>
+
+        <lable>interest</lable><br>
+        <input type="checkbox" id="sports" name="interest" value="sports">
+        <lable for="sports">sports</lable><br>
+
+        <input type="checkbox" id="singnig" name="interest" value="singing">
+        <lable for="singing">singing</lable><br>
+
+        <input type="checkbox" id="travel" name="interest" value="travel">
+        <lable for="travel">travel</lable><br>
+
+        <select name="city">
+            <option value="delhi">delhi</option>
+            <option value="surat">surat</option>
+            <option value="nari">nari</option>
+            <option value="pune">pune</option>
+        </select><br>
+
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+
+    </form>
+</body>
+</html>

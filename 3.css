@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(200, 171, 103);
+    text-align: center;
+    border: 2px solid black;
+}
+
+.form-contain{
+    background-color: rgb(211, 167, 212);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: white;
+    text-align: left;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 10px auto;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+input[type="submit"]{
+    background-color: rgb(129, 100, 154);
+    height: 50px;
+    color: white;
+}
+
+input[type="reset"]{
+    background-color: rgb(129, 100, 154);
+    height: 50px;
+    color: white;
+    width: 50px;
+}

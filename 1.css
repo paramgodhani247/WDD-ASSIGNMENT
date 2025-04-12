@@ -1,0 +1,23 @@
+
+
+.container {
+    border: 5px solid black;
+    padding: 20px;
+    /* max-width: 800px; */
+    margin: auto;
+    background-color: #86537b;
+}
+
+
+
+
+
+
+
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    background-color: rgb(77, 63, 91);
+    padding: 20px;
+    border: 5px solid black
+}
